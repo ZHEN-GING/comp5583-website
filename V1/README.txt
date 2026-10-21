@@ -1,0 +1,6 @@
+GENE_XU - V1 pixel career district (local build, 2026-10-20)
+Derived from frozen V0. Buildless HTML/CSS/classic JavaScript; no installation, API keys, backend, remote fonts or build step.
+Open index.html in a browser, or serve only this V1 directory over localhost. With JavaScript off all four static sections remain readable and navigation uses ordinary anchors.
+District: focus the street canvas, then WASD/arrow keys to move and E near an entrance. Clicking/Tab-activating any of four labeled entrances or main navigation opens the same corresponding panel. Dialogs pause movement; Escape/Close returns focus. Mobile directional buttons and entrance buttons provide equivalent access. Read full portfolio skips exploration.
+Files: index.html/app.js/style.css integrated by lead; scene.js/scene.css original canvas world; sections.html/panels.css/content.js independent content copy. index.html includes sections.html statically so file URLs and no-JS reading need no fetch. If editing the fragment, regenerate that part of index.html too.
+Media remain owner-supplied copies. Download menu hidden in V1 as previously requested; this does not prevent saving media. Art provenance in credits.html and scene files. No public deployment performed. Baseline and fixed rubric unchanged. Experiment records: ../../task3-records/V1-pixel-2026-10-20.

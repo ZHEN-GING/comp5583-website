@@ -1,0 +1,91 @@
+<section id="home" class="content-section home-section" aria-labelledby="home-heading">
+  <div class="section-label"><span class="section-index">00</span><span>THE ENTRANCE / HOME</span></div>
+  <div class="home-content-grid">
+    <div>
+      <p class="content-command" aria-hidden="true">$ hello, world</p>
+      <h1 id="home-heading" tabindex="-1">Hi, I’m <span>GENE_XU.</span></h1>
+      <p class="home-intro">Curious about technology.<br>Focused on practical applications.</p>
+      <p class="content-lead">I’m an Electrical and Computer Engineering graduate interested in AI applications that improve everyday life. My project experience spans deep learning accelerator analysis and embedded system prototyping.</p>
+      <div class="content-actions"><a class="content-button" href="#projects" data-section="projects">View my projects <span aria-hidden="true">↗</span></a><a class="content-text-link" href="#contact" data-section="contact">Get in touch</a></div>
+    </div>
+    <aside class="home-note" aria-label="Education and areas of interest">
+      <p class="note-label">BACKGROUND</p>
+      <p class="note-education"><strong>UC Irvine</strong><span>Master’s degree · ECE</span></p>
+      <p class="note-education"><strong>UAlbany</strong><span>Bachelor’s degree · ECE</span></p>
+      <p class="note-label note-divider">AREAS OF INTEREST</p>
+      <p class="note-topics">AI applications<br>Embedded systems</p>
+    </aside>
+  </div>
+</section>
+
+<section id="about" class="content-section" aria-labelledby="about-heading">
+  <div class="section-label"><span class="section-index">01</span><span>THE ARCHIVE / ABOUT</span></div>
+  <h2 id="about-heading" tabindex="-1">A curious mind.<br>A practical approach.</h2>
+  <p class="content-lead">I bring enthusiasm, a strong sense of responsibility, and a positive approach to challenges. I enjoy learning through hands-on projects and exploring how engineering can solve everyday problems.</p>
+  <div class="about-content-grid">
+    <div>
+      <h3>Education</h3>
+      <ol class="education-list">
+        <li><span class="education-type">MASTER’S DEGREE</span><strong>University of California, Irvine</strong><p>Electrical and Computer Engineering</p></li>
+        <li><span class="education-type">BACHELOR’S DEGREE</span><strong>University at Albany (UAlbany)</strong><p>Electrical and Computer Engineering</p></li>
+      </ol>
+      <div class="interest-note"><h3>Beyond engineering</h3><p>Outside of technology, I enjoy fishing, tennis, and fitness.</p></div>
+    </div>
+    <div class="skills-card">
+      <h3>Technical skills &amp; exposure</h3>
+      <p>Project experience with MAESTRO, alongside basic hands-on experience with the tools below. I’m continuing to develop my proficiency through practical work.</p>
+      <dl class="skills-list"><dt>Accelerator analysis</dt><dd>MAESTRO</dd><dt>Programming &amp; numerical computing</dt><dd>C · Java · MATLAB</dd><dt>Hardware design &amp; simulation</dt><dd>Altium Designer · Vivado · LTspice</dd><dt>Embedded development</dt><dd>Arduino IDE</dd><dt>Measurement &amp; network analysis</dt><dd>Scope (real-time signal measurement and debugging) · Wireshark</dd></dl>
+    </div>
+  </div>
+</section>
+
+<section id="projects" class="content-section" aria-labelledby="projects-heading">
+  <div class="section-label"><span class="section-index">02</span><span>THE WORKSHOP / PROJECTS</span></div>
+  <h2 id="projects-heading" tabindex="-1">Learning through building.</h2>
+  <p class="content-lead">Two completed team projects, with my contributions outlined below.</p>
+  <div class="project-list">
+    <article class="project-card" aria-labelledby="accelerator-title">
+      <div class="project-card-header"><span class="project-number">01</span><div><p class="project-context">UC IRVINE · DEEP LEARNING · HARDWARE ANALYSIS</p><h3 id="accelerator-title">Deep Learning Accelerator Co-Optimization</h3></div></div>
+      <dl class="project-facts">
+        <div><dt>Goal</dt><dd>Explore hardware and dataflow optimization for VGG16 and UNet under resource constraints, using MAESTRO to evaluate design choices.</dd></div>
+        <div><dt>My role</dt><dd>I was primarily responsible for optimizing the VGG16 accelerator configuration. I also contributed to UNet optimization by analyzing and refining dataflow mappings and adjusting processing element (PE) counts and network-on-chip (NoC) bandwidth.</dd></div>
+        <div><dt>Outcome</dt><dd>The VGG16 configuration met the following targets in MAESTRO-based evaluation.</dd></div>
+      </dl>
+      <div class="project-results" aria-label="VGG16 evaluation results"><div><span>VGG16 latency</span><strong>≤ 200 <small>ms</small></strong></div><div><span>VGG16 energy</span><strong>≤ 240 <small>mJ</small></strong></div></div>
+      <p class="evidence-note">Results from MAESTRO-based evaluation, rather than measurements from a fabricated chip.</p>
+      <details class="project-details"><summary>Approach &amp; trade-offs</summary><div class="detail-content"><p>I explored spatial and temporal dataflow mappings and hardware parameters to balance resource use, latency, bandwidth, and energy consumption. The work involved comparing candidate configurations and refining them against the project constraints.</p></div></details>
+      <p class="project-tags">MAESTRO · VGG16 · UNet · Dataflow mapping</p>
+    </article>
+
+    <article class="project-card" aria-labelledby="led-title">
+      <div class="project-card-header"><span class="project-number">02</span><div><p class="project-context">UALBANY · EMBEDDED SYSTEMS · TEAM CAPSTONE</p><h3 id="led-title">Wireless LED Configuration Prototype</h3></div></div>
+      <dl class="project-facts">
+        <div><dt>Goal</dt><dd>Explore wireless configuration of LED lighting, with settings stored while powered off and applied after power was restored.</dd></div>
+        <div><dt>My role</dt><dd>I built the initial prototype and adapted existing example code, combining LED control and NFC functionality on Arduino. I compiled component and cost information and recorded a demonstration video. I also explored integrating the NFC component into a PCB design and participated in hardware soldering.</dd></div>
+        <div><dt>Outcome</dt><dd>A prototype that could store settings while powered off and apply them after power restoration, documented with an LED mode changing demonstration.</dd></div>
+      </dl>
+      <div class="project-award"><p class="award-label">TEAM RECOGNITION</p><strong>Best Senior Capstone Design Project — Runner-Up</strong><p>UAlbany Showcase · Academic year 2022–2023</p></div>
+      <h4>Award certificate</h4>
+      <figure class="certificate-figure"><a href="assets/award-certificate.jpg" target="_blank" rel="noopener"><img src="assets/award-certificate.jpg" loading="lazy" alt="University at Albany ECE certificate: Best Senior Capstone Design Project, Runner-Up, academic year 2022–2023"></a><figcaption>Best Senior Capstone Design Project — Runner-Up, academic year 2022–2023. Select the certificate to view it at full size.</figcaption></figure>
+      <details class="project-details media-details"><summary>View prototype video &amp; team photos</summary><div class="detail-content">
+        <h4>Prototype in action</h4>
+        <figure><video controls controlslist="nodownload" playsinline preload="metadata" aria-label="LED mode changing prototype demonstration"><source src="assets/led-mode-changing.mp4" type="video/mp4">Your browser does not support this video.</video><figcaption>LED mode changing demonstration. <a href="video.html">Open video</a></figcaption></figure>
+        <div class="project-gallery">
+          <figure><a href="assets/showcase.jpeg" target="_blank" rel="noopener"><img src="assets/showcase.jpeg" loading="lazy" width="2048" height="1536" alt="Capstone team presenting their poster and prototype at the UAlbany Showcase"></a><figcaption>Our team at the UAlbany Showcase - LED display 1</figcaption></figure>
+          <figure><a href="assets/showcase-team-purple.jpeg" target="_blank" rel="noopener"><img src="assets/showcase-team-purple.jpeg" loading="lazy" width="2048" height="1536" alt="Our capstone team beside the project poster and LED prototype under purple lighting at the UAlbany Showcase"></a><figcaption>Our team at the UAlbany Showcase - LED display 2</figcaption></figure>
+          <figure><a href="assets/award.jpg" target="_blank" rel="noopener"><img src="assets/award.jpg" loading="lazy" width="4032" height="3024" alt="Team award photograph at the UAlbany ECE Showcase ceremony"></a><figcaption>Best Senior Capstone Design Project — Runner-Up.</figcaption></figure>
+        </div>
+      </div></details>
+      <p class="project-tags">Arduino · NFC · NeoPixel · Prototyping · PCB exploration</p>
+      <p class="code-credits">Code acknowledgments: adapted examples from <a href="https://www.adafruit.com/product/1426">Adafruit’s NeoPixel resources</a>, integrated with NFC-related code. The exact NFC example source and version are not currently available.</p>
+    </article>
+  </div>
+</section>
+
+<section id="contact" class="content-section contact-section" aria-labelledby="contact-heading">
+  <div class="section-label"><span class="section-index">03</span><span>THE POST OFFICE / CONTACT</span></div>
+  <h2 id="contact-heading" tabindex="-1">Let’s connect.</h2>
+  <p class="content-lead">I’m open to job opportunities and project collaborations.<br>Feel free to get in touch.</p>
+  <a class="contact-address" href="mailto:xzgenee@gmail.com">xzgenee@gmail.com <span aria-hidden="true">↗</span></a>
+  <p class="contact-detail">Electrical &amp; Computer Engineering · GENE_XU</p>
+</section>
